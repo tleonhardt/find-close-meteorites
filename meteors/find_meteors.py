@@ -27,8 +27,7 @@ def get_dist(a_meteor):
 
 
 if __name__ == '__main__':
-    # Norther Virginia, USA
-    my_loc = (38.9588, -77.3592)
+    my_loc = (38.9588, -77.3592)  # Norther Virginia, USA
 
     meteor_resp = requests.get('https://data.nasa.gov/resource/y77d-th95.json')
     meteor_data = meteor_resp.json()
