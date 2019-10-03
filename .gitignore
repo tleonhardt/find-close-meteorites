@@ -108,3 +108,6 @@ venv.bak/
 
 # VScode
 .vscode
+
+# Pipenv
+Pipfile.lock
